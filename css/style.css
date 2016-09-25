@@ -1,0 +1,74 @@
+body {
+  box-sizing: border-box;
+  /*font-size: 62.5%;*/
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  margin: 0;
+  border: 0;
+  font-family: "Roboto", Arial;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+li{
+   list-style: none;
+}
+
+.header{
+	background-image: url('http://placekitten.com/2000/600');
+	background-size: cover;
+	width: 100%;
+	position: relative;
+	/*border: 2px red solid;*/
+
+
+}
+
+.forty{
+	background-color: #fff;
+	color: #000;
+}
+.description{
+	clear: both;
+	padding: 5% 5%;
+}
+
+button{
+	border: 1px solid #fff;
+	background: none;
+	color: #fff;
+	padding: 1rem;
+	font-size: .5rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	line-height: .5rem
+
+}
+
+.overlay{
+
+  z-index: 10;
+  background-color: rgba(25,25,75,0.7);
+}
+
+.intro{
+	width: 30%;
+	display: inline-block;
+	font-size: .5rem;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	line-height: 1rem;
+}
+.big-arrow{
+	font-size: 1rem;
+	line-height: 0;
+	
+}
