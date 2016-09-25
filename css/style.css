@@ -19,7 +19,17 @@ body {
 	float: left;
 }
 li{
+  position:relative;
+  display: inline-block;
    list-style: none;
+}
+
+.tiny-text {
+  font-size: .5rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  line-height: .5rem;
+
 }
 
 .header{
@@ -30,6 +40,12 @@ li{
 	/*border: 2px red solid;*/
 
 
+}
+
+.nav-bar{
+  position: fixed;
+  width:100%;
+  padding:1%;
 }
 
 .forty{
@@ -46,10 +62,6 @@ button{
 	background: none;
 	color: #fff;
 	padding: 1rem;
-	font-size: .5rem;
-	text-transform: uppercase;
-	letter-spacing: .1rem;
-	line-height: .5rem
 
 }
 
@@ -62,10 +74,7 @@ button{
 .intro{
 	width: 30%;
 	display: inline-block;
-	font-size: .5rem;
-	letter-spacing: .1rem;
-	text-transform: uppercase;
-	line-height: 1rem;
+
 }
 .big-arrow{
 	font-size: 1rem;
