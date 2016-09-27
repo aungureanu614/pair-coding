@@ -76,10 +76,16 @@ button{
 
 }
 
-.overlay{
+.header-overlay{
   z-index: 10;
   background-color: rgba(25,25,75,0.7);
 }
+
+.overlay{
+  z-index: 10;
+}
+
+
 
 .intro{
 	width: 30%;
@@ -103,7 +109,7 @@ h2 {
   background-size: cover;
 }
 
-#pancake .overlay{
+.pancake-overlay{
   background-color: rgba(220,130,0,0.7);
 
 }
@@ -113,7 +119,7 @@ h2 {
   background-size: cover;
 }
 
-#tempus .overlay {
+.tempus-overlay {
   background-color: rgba(0,130,0,0.7);
 }
 
@@ -122,7 +128,7 @@ h2 {
   background-size: cover;
 }
 
-#carrot .overlay {
+.carrot-overlay {
   background-color: rgba(0,30,100,0.7);
 }
 #iguana {
@@ -130,7 +136,7 @@ h2 {
   background-size: cover;
 }
 
-#iguana .overlay {
+.iguana-overlay {
   background-color: rgba(0,130,100,0.7);
 }
 #pearl {
@@ -138,7 +144,7 @@ h2 {
   background-size: cover;
 }
 
-#pearl .overlay {
+.pearl-overlay {
   background-color: rgba(200,130,200,0.7);
 }
 
@@ -147,6 +153,14 @@ h2 {
   background-size: cover;
 }
 
-#consequat .overlay {
+.consequat-overlay {
   background-color: rgba(220,130,10,0.7);
+}
+
+.overlay:hover{
+
+/*.overlay:hover {*/
+  /*display: none;*/
+  background-color: rgba(0,0,0,0);
+
 }
