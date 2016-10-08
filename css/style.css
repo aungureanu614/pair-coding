@@ -6,7 +6,7 @@ body {
     margin: 0;
     border: 0;
     font-family: "Roboto", Arial;
-    background-color: red;
+    background-color: rgb(0, 15, 51);
 }
 
 *,
@@ -211,14 +211,22 @@ h2 {
   font-weight: bold;
 }
 
-#contact-info{
+ul{
   margin: 0;
-  border: 1px solid white;
+  padding: 0;
+}
+
+#contact-info{
+  
+  border-left: 1px solid rgba(120, 120, 120, .1);
+
 }
 
 #contact-info li{
-  padding: 12% 0 5%;
+  padding: 8% 5%;
   list-style: none;
+  margin: 0;
+  /*border-bottom: 1px solid white;*/
   
 
 }
@@ -236,12 +244,16 @@ h2 {
   width: 1.75rem;
   text-align: center;
 }
-
+#email{
+  border-bottom: 1px solid rgba(120, 120, 120, .1);
+}
 #email:before{
   content: '\f0e0';
   
 }
-
+#phone{
+  border-bottom: 1px solid rgba(120, 120, 120, .1);
+}
 #phone:before{
   content: '\f095'; 
 }
@@ -252,4 +264,38 @@ h2 {
 
 .move-right{
   margin-left: 1.25rem;
+  color: white;
 }
+
+a{
+  text-decoration: none;
+}
+.icons{
+  clear: both;
+  border-top: 1px solid rgba(120, 120, 120, .1);
+}
+
+.icons-list{
+  margin: 2.5% 2.5% 2.5% 6%;
+
+
+}
+
+.icons-list li{
+  display: inline-block;
+  list-style: none;
+  color: rgb(0, 15, 51);
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: white;
+  width: 1.75rem;
+  text-align: center;
+  margin: .5%;
+}
+
+.copyright{
+  margin-left: 6%;
+  font-size: .8rem;
+}
+
+
