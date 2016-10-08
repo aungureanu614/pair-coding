@@ -81,15 +81,39 @@
     </div>
     <footer>
         <div>
-          <form id="contact" class="wide"> 
-
-            <div class="form-half tiny-text">Name<br><input class="text-style" type="text" name="name">
-            </div><div class="form-half tiny-text">Email<br><input class="text-style"type="text" name="email"> 
-			</div><div class="form-full tiny-text">Message<br><textarea class="text-style"></textarea></div>
-            <button class="btn-ghost tiny-text btn-inverted" id="margin-send">Send Message</button><button class="btn-ghost tiny-text" id="margin-clear">Clear</button>    
-          </form>
-
+            <div>
+                <form id="contact-form" class="wide left">
+                    <div class="form-half tiny-text">Name
+                        <br>
+                        <input class="text-style" type="text" name="name">
+                    </div>
+                    <div class="form-half tiny-text">Email
+                        <br>
+                        <input class="text-style" type="text" name="email">
+                    </div>
+                    <div class="form-full tiny-text">Message
+                        <br>
+                        <textarea class="text-style"></textarea>
+                    </div>
+                    <button class="btn-ghost tiny-text btn-inverted" id="margin-send">Send Message</button>
+                    <button class="btn-ghost tiny-text" id="margin-clear">Clear</button>
+                </form>
+            </div>
+            <ul id="contact-info" class="right narrow">
+                <li id="email">
+                    <h3>Email</h3>
+                    <a href="mailto:information@untitled.ltd"><span class="move-right">information@untitled.ltd</span></a></li>
+                <li id="phone">
+                    <h3>Phone</h3>
+                    <span class="move-right">123-345-4566</span></li>
+                <li id="address">
+                    <h3>Address</h3>
+                    <span class="move-right">1234 Somewhere Road #567
+                    <br><span class="move-right">Nashville, TN 00000</span>
+                    <br><span class="move-right">United States</span></li>
+            </ul>
         </div>
+      
     </footer>
 </body>
 

@@ -6,6 +6,7 @@ body {
     margin: 0;
     border: 0;
     font-family: "Roboto", Arial;
+    background-color: red;
 }
 
 *,
@@ -32,7 +33,7 @@ body {
     /*height:10rem;*/
 }
 
-li {
+.nav-bar li {
     position: relative;
     display: inline-block;
     list-style: none;
@@ -167,7 +168,7 @@ h2 {
     clear: both;
 }
 
-#contact {
+#contact-form {
     background-color: rgb(0, 15, 51);
     padding: 0;
     border: 0;
@@ -208,4 +209,47 @@ h2 {
   background-color: #fff;
   color: rgb(0, 15, 51);
   font-weight: bold;
+}
+
+#contact-info{
+  margin: 0;
+  border: 1px solid white;
+}
+
+#contact-info li{
+  padding: 12% 0 5%;
+  list-style: none;
+  
+
+}
+
+#contact-info li:before{
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  margin-right: 1em;
+  margin-top: 1.3rem;
+  color: rgb(0, 15, 51);
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: white;
+  width: 1.75rem;
+  text-align: center;
+}
+
+#email:before{
+  content: '\f0e0';
+  
+}
+
+#phone:before{
+  content: '\f095'; 
+}
+
+#address:before{
+  content: '\f015';
+}
+
+.move-right{
+  margin-left: 1.25rem;
 }
