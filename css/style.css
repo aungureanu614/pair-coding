@@ -82,6 +82,10 @@ body {
     padding: 1rem;
 }
 
+.btn-ghost:hover{
+  cursor:pointer;
+}
+
 .header-overlay {
     z-index: 10;
     background-color: rgba(25, 25, 75, 0.7);
